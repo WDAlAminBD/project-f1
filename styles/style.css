@@ -5,6 +5,7 @@
   }
   .body-color{
     background-color: rgb(238, 237, 237);
+    width: 1280px;
   }
   .banner{
     background-color: rgb(198, 228, 214);
@@ -47,7 +48,7 @@
   .four{
     /* background-color:rgb(255, 255, 255); */
     display: flex;
-    width: 1280px;
+    /* width: 1280px; */
     height: 244px;
     gap: 10px;
     
@@ -58,3 +59,66 @@
     background-color: white;
     padding: 30px;
   }
+  .second-box{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  .bg-one{
+    background-color: rgba(84, 144, 245, 0.2);
+  }
+  .bg-two{
+    background-color: rgb(198, 228, 214);
+  }
+  .bg-3{
+    background-color: blanchedalmond;
+  }
+.dr-younus{
+  border-radius: 10px;
+  border: 1px solid rgba(14, 14, 14, 0.15);;
+}
+.satelite-area{
+  display: flex;
+  justify-content:space-around;
+  /* gap: 20px; */
+  background-color: white;
+  border-radius: 10px;
+}
+.sat-1{
+  /* padding: 50px 200px 50px 50px; */
+  margin: 50px;
+}
+.sat-1-description{
+margin: 50px;
+}
+.satelite-area-2{
+  display: flex;
+  justify-content:space-around;
+  /* gap: 20px; */
+  background-color: white;
+  border-radius: 10px;
+}
+.sat-2{
+  /* padding: 50px 200px 50px 50px; */
+  margin: 50px;
+  /* border: 5px solid red; */
+  border-image: url(assets/satelite.png) 30 round;
+}
+.sat-2-description{
+margin: 50px;
+}
+.donate-area{
+  text-align: center;
+}
+.donate-area-2{
+  display: flex;
+  justify-content:space-around;
+}
+.donate{
+background-color: white;
+padding: 20px 50px;
+border-radius: 10px;
+}
+.donate-2-color{
+  background-color: rgb(198, 228, 214);
+}
