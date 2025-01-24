@@ -38,6 +38,7 @@
     color: rgb(255, 255, 255);
     width: 200px;
     height: 50px;
+    border: none;
   }
   /* .pillar-section{
     background-color: rgb(197, 23, 23);
@@ -122,3 +123,56 @@ border-radius: 10px;
 .donate-2-color{
   background-color: rgb(198, 228, 214);
 }
+.input-amount{
+  text-align: center;
+  margin: 50px 100px;
+  padding: 5px;
+  background-color: white;
+  border-radius: 5px;
+ 
+ 
+}
+.explore-b{
+  text-align: center;
+}
+.Subscribe-area{
+  background-color: rgb(198, 228, 214);
+  text-align: center;
+  padding: 30px;
+  margin-top: 60px;
+  border-radius: 10px;
+}
+.donate-input{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+}
+.donate-email{
+  background-color: aliceblue;
+  width: 500px;
+  border-radius: 5px;
+  text-align: center;
+  height: 50px;
+ 
+}
+/* .subscribe-bottom{
+  margin-bottom: 0px;
+} */
+ .footer-top{
+  text-align: center;
+ }
+ .footer{
+  display: flex;
+  align-items: center;
+ }
+ .footer-icon{
+  text-align: center;
+  display: flex;
+  padding-left: 500px;
+  border-top: 1px solid gray;
+  margin: 0px 100px;
+  padding-top: 20px;
+  margin-bottom: 50px;
+ }
